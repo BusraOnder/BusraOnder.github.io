@@ -3,7 +3,7 @@ title:  "Jekyll ile Web Site Yapımı"
 subtitle: "Jekyll"
 author: "Büşra Önder"
 avatar: "img/authors/tb.jpg"
-image: "img/tb.jpg"
+image: "img/jekyll.jpg"
 date:   2017-02-23 16:32:12
 ---
 
