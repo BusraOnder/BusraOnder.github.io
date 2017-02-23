@@ -91,7 +91,8 @@ ile repository’nizin durumunu öğreniyorsunuz.(Hangi dosyalar eklenmiş, kald
 	<b> $ git commit -m  “düzenleme nedeninizi yazıyorsunuz (size kolaylık olsun diye)”  </b>
 	<b> $ git push origin master  </b> 
 
-bu işlemlerden sonra sizden github username’iniz ve parolanız istenecektir.Sorunsuz olarak bu aşamalar tamamlandıktan sonra alanadınız.github.io adresine girdiğinizde yeni temanız sizi karşılıyor olacaktır.Güle güle kullanın :)
+bu işlemlerden sonra sizden github username’iniz ve parolanız istenecektir.Sorunsuz olarak bu aşamalar tamamlandıktan sonra alanadınız.github.io adresine girdiğinizde yeni temanız sizi karşılıyor olacaktır.Sonra gerekli düzenlemeleri yaparak yukarıda belirttiğim > git init 
+kısmından sonrasını tekrarlayınız bu şekilde websiteniz güncellenerek yaptığınız değişiklikler görünecektir. Güle güle kullanın :)
 
 
 
