@@ -7,7 +7,7 @@ image: "img/jekyll.jpg"
 date:   2017-02-23 16:32:12
 ---
 
-### Ubuntu Üzerine Jekyll Kurulumu
+## Ubuntu Üzerine Jekyll Kurulumu
 
 Jekyll Ruby dili ile yazılmış,site oluşturucu bir yazılımdır.Jekyll ile Github Page Sayesinde web sitenizi oluşturabilirsiniz.Veritabanı kullanımı yoktur.Onun yerine MARKDOWN ile yazılarımızı formatlı bir şekilde yazıp web sitemize ekleyebiliyoruz.Jekyll kurmadan önce bilgisayarınızda Ruby yüklü olması gerekmektedir.
 
@@ -53,11 +53,12 @@ Komutunu vermenizdir.
 jekyll serve yaptıktan sonra klasörümüzün içeriğine bakacak olursak
 
 	> ![jekyll after serve][jekyllafterserve]
+	[jekyllafterserve]: img/after.png
 
 İşte bizim için en önemli _site klasörü geldi.Şimdi [http://localhost:4000](http://localhost:4000) adresine gidip bakarsanız sizi şöyle bir site karşılayacak
 
 	> ![Welcome to jekyll][welcometojekyll]
-	[welcometojekyll] :/home/busra/BusraOnder.github.io/Jekyll
+	[welcometojekyll] : img/youraxesome.png
 
 Bu ekranla karşılaşmışsanız jekyll çalışıyor demektir.
 
