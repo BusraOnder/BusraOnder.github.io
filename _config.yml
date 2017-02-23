@@ -1,5 +1,5 @@
 # Site settings
-title: Büşra Önder
+title: 'Büşra Önder'
 description: 'Büşra Önder Kişisel Blog'
 url: 'http://busraonder.me'
 baseurl: '/jekyll-uno/'
@@ -8,14 +8,13 @@ baseurl: '/jekyll-uno/'
 
   author: 'Büşra Önder'
   name: 'Büşra Önder'
-  email: bbsronder@gmail.com
-  github_username:  BusraOnder
+  email: 'bbsronder@gmail.com'
+  github_username:  'BusraOnder'
   
 
 defaults:
-  -
     scope:
-      path: ''
+      
       type: 'posts'
     values:
         layout: 'post'
