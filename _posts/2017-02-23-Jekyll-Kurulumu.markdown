@@ -58,7 +58,7 @@ jekyll serve yaptıktan sonra klasörümüzün içeriğine bakacak olursak
 İşte bizim için en önemli _site klasörü geldi.Şimdi [http://localhost:4000](http://localhost:4000) adresine gidip bakarsanız sizi şöyle bir site karşılayacak
 
 	
-	![Welcome to jekyll](http://www.iconarchive.com/show/small-n-flat-icons-by-paomedia/sign-check-icon.html)
+	![Welcome to jekyll](/img/welcome.png)
 
 	
 Bu ekranla karşılaşmışsanız jekyll çalışıyor demektir.
