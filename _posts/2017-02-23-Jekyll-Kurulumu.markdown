@@ -32,11 +32,11 @@ Oluşturmak istediğimiz dizinin içerisine gidip (Örneğin : <b> $ cd /Home </
 yazıyoruz.
 
 	>ÇIKTI:
-	![jekyll new][jekyllnew]
+	![jekyll new](/img/jekyllnew.png)
 
 Klasörümüz hazır durumda.Kalsörümüzün içini açıp bakarsak 
 
-	> ![jekyll before serve][jekyllbeforeserve]
+	> ![jekyll before serve](/img/jekyllbeforeserve.png)
 
 bunlarla karşılaşacaksınızdır.Ama bu sitenin çalışması için > _site  adlı klasörün mutlaka olması gerekiyor yoksa hata alırsınız.
 Burada dikkat edilmesi gereken kısım ( Benim başımı çok ağrıttı için )
@@ -48,18 +48,17 @@ bu kalsörü oluşturduktan
 Komutunu vermenizdir.
 
 	>ÇIKTI:
-	![jekyll serve][jekyllserve]
+	![jekyll serve](/img/jekyllserve.png)
+
 
 jekyll serve yaptıktan sonra klasörümüzün içeriğine bakacak olursak
 
-	> ![jekyll after serve][jekyllafterserve]
-	[jekyllafterserve]: img/after.png
+	> ![jekyll after serve](img/after.png)
 
 İşte bizim için en önemli _site klasörü geldi.Şimdi [http://localhost:4000](http://localhost:4000) adresine gidip bakarsanız sizi şöyle bir site karşılayacak
 
-	> ![Welcome to jekyll][welcometojekyll]
-	[welcometojekyll] : img/youraxesome.png
-
+	> ![Welcome to jekyll](/img/youraxesome.png)
+	
 Bu ekranla karşılaşmışsanız jekyll çalışıyor demektir.
 
 Bundan sonrası ise  beğendiğiniz bir jekyll teması indirip içindeki klasörleri bu oluşturduğumuz klasörün içine atmaktır.(_site dosyasının değişmemesine veya silinmemesine dikkat edin).Bu işlemde hallolduktan sonra tekrar  jekyll serve yapıp localhostunuza bakarak yeni temanızın nasıl göründüğüne bakabilirsiniz.Eğer hoşunuza gittiyse şimdi asıl geçelim.
