@@ -57,7 +57,7 @@ jekyll serve yaptıktan sonra klasörümüzün içeriğine bakacak olursak
 
 İşte bizim için en önemli _site klasörü geldi.Şimdi [http://localhost:4000](http://localhost:4000) adresine gidip bakarsanız sizi şöyle bir site karşılayacak
 
-	[id]: img/youraxesome.png "Welcome to Jekylll"
+	[id]: http://busraonder.me/img/youraxesome.png "Welcome to Jekylll"
 	> ![Welcome to jekyll][id]
 
 	
