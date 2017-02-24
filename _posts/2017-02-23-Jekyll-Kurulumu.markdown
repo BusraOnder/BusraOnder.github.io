@@ -13,25 +13,25 @@ Jekyll Ruby dili ile yazılmış,site oluşturucu bir yazılımdır.Jekyll ile G
 
 İlk önce update işlemini yapalım.
 
- 	<b>$ sudo apt-get update</b>
+ 	<b> $ sudo apt-get update </b>
 
 Daha sonra Ruby kurulumu gerçekleştirelim.
 
-	<b>$ sudo apt-get install ruby ruby-dev make gcc</b>
+	<b> $ sudo apt-get install ruby ruby-dev make gcc </b>
 
 En son olarak da Jekyll Bundle kurulumu yapalım.
 
-	<b>$ sudo gem install jekyll bundler</b>
+	<b> $ sudo gem install jekyll bundler </b>
 
 Web sitemizi oluşturmamız için herşey şimdi diğer aşamalara geçelim.
 
 Oluşturmak istediğimiz dizinin içerisine gidip (Örneğin : <b> $ cd /Home </b> )
 
-	<b>$ jekyll new site_ismi </b> 
+	<b> $ jekyll new site_ismi </b> 
 
 yazıyoruz.
 
-	>ÇIKTI:
+	> ÇIKTI:
 	![My helpful screenshot]({{ site.url }}/img/jekyll.png )
 
 
@@ -48,7 +48,7 @@ bu kalsörü oluşturduktan
 
 Komutunu vermenizdir.
 
-	>ÇIKTI:
+	> ÇIKTI:
 	![jekyll serve](/img/jekyllserve.png "Jekyll Serve")
 
 
