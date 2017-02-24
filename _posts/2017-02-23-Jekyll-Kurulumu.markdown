@@ -32,7 +32,7 @@ Oluşturmak istediğimiz dizinin içerisine gidip (Örneğin : <b> $ cd /Home </
 yazıyoruz.
 
 	> ÇIKTI:
-	![My helpful screenshot]({{ site.url }}img/jekyll.png )
+	![My helpful screenshot](http://busraonder.me/img/jekyll.png)
 
 
 Klasörümüz hazır durumda.Kalsörümüzün içini açıp bakarsak 
