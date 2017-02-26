@@ -3,7 +3,7 @@ title:  "MongoDB"
 subtitle: "MongoDB'ye Giriş"
 author: "Büşra Önder"
 avatar: "img/authors/wferr.png"
-image: "img/mongodb.jpg"
+image: "img/mongodb.png"
 date:   2017-02-26 13:59:12
 ---
 
@@ -18,6 +18,8 @@ NoSQL, SQL veritabanlarında olan ilişkisellik olayını barındırmayan,SQL de
 MongoDB genellikle hız gerektiren uygulamalarda kullanılır.Çünkü RDBMS (ilişkisel veri tabanları)  NoSQL yanında yavaş kalmaktadır.
 
 ##Kullanım alanları:
+	
+
 	1-Yüksek hacim/içerikli problemler
 	2-Analiz için veri saklanması
 	3-MMORPG uygulamaları(Çok oyunculu online oyun yapma türüdür)
