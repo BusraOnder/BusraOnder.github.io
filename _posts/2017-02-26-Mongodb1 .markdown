@@ -3,7 +3,7 @@ title:  "MongoDB"
 subtitle: "MongoDB'ye Giriş"
 author: "Büşra Önder"
 avatar: "img/authors/wferr.png"
-image: "img/mongodb.png"
+image: "img/mongodb.jpg"
 date:   2017-02-26 13:59:12
 ---
 
