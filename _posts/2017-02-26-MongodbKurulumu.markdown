@@ -3,20 +3,20 @@ title:  "MongoDB Kurulumu
 subtitle: "MongoDB"
 author: "Büşra Önder"
 avatar: "img/authors/wferr.png"
-image: "img/mongodb.jpg"
+image: "img/mongodb2.png"
 date:   2017-02-26 15:10:12
 ---
 
 ### Ubuntu 16.04 Üzerine MongoDB Kurulumu
 
-MongoDB Kurulumumuzu gerçekleştirmek için terminalimizi ( Ctrl+alt+T ) açıyoruz.Daha sonra bilgisayarımıza MongoDB'nin repository'sini ekliyoruz.
+	MongoDB Kurulumumuzu gerçekleştirmek için terminalimizi ( Ctrl+alt+T ) açıyoruz.Daha sonra bilgisayarımıza MongoDB'nin repository'sini ekliyoruz.
 
 <b> $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927 </b>
 
 Çıktımızın şu şekilde olması gerekiyor.
 
->>	gpg: Total number processed: 1
-	gpg: imported: 1  (RSA: 1)
+>	gpg: Total number processed: 1
+>	gpg: imported: 1  (RSA: 1)
 
 Daha sonra MongoDb için liste dosyasını oluşturalım.Ve ardından bilgisayarımızı güncelleyelim.
 
@@ -37,11 +37,11 @@ Açılan dosyaya şu verileri yapıştırınız.
 	Description=High-performance, schema-free document-oriented database
 	After=network.target
 
-	[Service]
+>>	[Service]
 	User=mongodb
 	ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
 
-	[Install]
+>>	[Install]
 	WantedBy=multi-user.target
 
 MongoDB'yi başlatalım
@@ -56,7 +56,7 @@ MongoDb'nin ne durumda olduğunu kontrol edelim.
 
 Aşağıdaki gibi bir çıktı alırsanız güzel bir kurulum yapmışsınız demektir.
 
->	● mongodb.service - High-performance, schema-free document-oriented database
+>>	● mongodb.service - High-performance, schema-free document-oriented database
    Loaded: loaded (/etc/systemd/system/mongodb.service; enabled; vendor preset: enabled)
    Active: active (running) since Mon 2016-04-25 14:57:20 EDT; 1min 30s ago
  Main PID: 4093 (mongod)
