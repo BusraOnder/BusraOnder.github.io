@@ -33,15 +33,15 @@ Sıra MongoDB paketini indirmeye
 
 Açılan dosyaya şu verileri yapıştırınız.
 
->>  [Unit]
+> [Unit]
 	Description=High-performance, schema-free document-oriented database
 	After=network.target
 
->>	[Service]
+>	[Service]
 	User=mongodb
 	ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
 
->>	[Install]
+>	[Install]
 	WantedBy=multi-user.target
 
 MongoDB'yi başlatalım
