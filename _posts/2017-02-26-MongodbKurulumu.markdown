@@ -3,7 +3,7 @@ title:  "MongoDB Kurulumu
 subtitle: "MongoDB"
 author: "Büşra Önder"
 avatar: "img/authors/wferr.png"
-image: "img/mongodb1.png"
+image: "img/mongodb1.jpg"
 date:   2017-02-26 15:10:12
 ---
 
