@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Jekyll ile Web Site Yapımı"
+title:  "
+Jekyll ile Web Site Yapımı"
 subtitle: "Jekyll"
 author: "Büşra Önder"
 image: ""
@@ -8,6 +9,7 @@ date:   2017-02-23 16:32:12
 ---
 
 <img src="img/jekyll.jpg">
+
 ## Ubuntu Üzerine Jekyll Kurulumu
 
 Jekyll Ruby dili ile yazılmış,site oluşturucu bir yazılımdır.Jekyll ile Github Page Sayesinde web sitenizi oluşturabilirsiniz.Veritabanı kullanımı yoktur.Onun yerine MARKDOWN ile yazılarımızı formatlı bir şekilde yazıp web sitemize ekleyebiliyoruz.Jekyll kurmadan önce bilgisayarınızda Ruby yüklü olması gerekmektedir.
