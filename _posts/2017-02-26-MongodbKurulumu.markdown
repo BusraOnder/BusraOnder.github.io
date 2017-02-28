@@ -8,7 +8,7 @@ image: ""
 date:   2017-02-26 15:10:12
 ---
 
-<img src="/img/mongodb1.jpg">
+<img src="/img/mongodb3.jpg">
 
 ### Ubuntu 16.04 Üzerine MongoDB Kurulumu
 
