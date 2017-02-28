@@ -1,7 +1,7 @@
 {
-  "name": "victorigortemplate",
+  "name": "Büşra Önder",
   "version": "1.0.0",
-  "description": "My jekyll blog template.",
+  "description": "büşra Önder Kişisel Blog",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
@@ -15,7 +15,7 @@
     "jekyll",
     "js"
   ],
-  "author": "Victor Igor",
+  "author": "Büşra Önder",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",
