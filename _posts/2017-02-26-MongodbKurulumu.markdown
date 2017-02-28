@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "MongoDB Kurulumu
+title:  "MongoDB Kurulumu"
 subtitle: "MongoDB"
 author: "Büşra Önder"
 image: ""
