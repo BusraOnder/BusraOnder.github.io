@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "
-Jekyll ile Web Site Yapımı"
+title:  "Jekyll ile Web Site Yapımı"
 subtitle: "Jekyll"
 author: "Büşra Önder"
 image: ""
 date:   2017-02-23 16:32:12
 ---
 
-<img src="img/jekyll.jpg">
+<img src="/img/jekyll.jpg">
 
 ## Ubuntu Üzerine Jekyll Kurulumu
 
@@ -34,8 +33,7 @@ Oluşturmak istediğimiz dizinin içerisine gidip (Örneğin : <b> $ cd /Home </
 
 yazıyoruz.
 
-> ÇIKTI:
-![My helpful screenshot](http://busraonder.me/img/jekyll.png)
+![My helpful screenshot](/img/jekyll.jpg)
 
 
 Klasörümüz hazır durumda.Kalsörümüzün içini açıp bakarsak 
@@ -51,13 +49,12 @@ bu kalsörü oluşturduktan
 
 Komutunu vermenizdir.
 
-> ÇIKTI:
 ![jekyll serve](/img/jekyllserve.png "Jekyll Serve")
 
 
 jekyll serve yaptıktan sonra klasörümüzün içeriğine bakacak olursak
 
-> ![jekyll after serve](img/after.png "Jekyll Serve Sonrası")
+![jekyll after serve](/img/after.png "Jekyll Serve Sonrası")
 
 İşte bizim için en önemli _site klasörü geldi.Şimdi [http://localhost:4000](http://localhost:4000) adresine gidip bakarsanız sizi şöyle bir site karşılayacak
 

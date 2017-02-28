@@ -8,7 +8,7 @@ image: ""
 date:   2017-02-26 15:10:12
 ---
 
-<img src="img/mongodb1.jpg">
+<img src="/img/mongodb1.jpg">
 
 ### Ubuntu 16.04 Üzerine MongoDB Kurulumu
 
@@ -36,15 +36,15 @@ Sıra MongoDB paketini indirmeye
 
 Açılan dosyaya şu verileri yapıştırınız.
 
-> [Unit]
+> 	[Unit]
 	Description=High-performance, schema-free document-oriented database
 	After=network.target
 
->	[Service]
+	[Service]
 	User=mongodb
 	ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
 
->	[Install]
+	[Install]
 	WantedBy=multi-user.target
 
 MongoDB'yi başlatalım
@@ -59,7 +59,7 @@ MongoDb'nin ne durumda olduğunu kontrol edelim.
 
 Aşağıdaki gibi bir çıktı alırsanız güzel bir kurulum yapmışsınız demektir.
 
->>	● mongodb.service - High-performance, schema-free document-oriented database
+>	● mongodb.service - High-performance, schema-free document-oriented database
    Loaded: loaded (/etc/systemd/system/mongodb.service; enabled; vendor preset: enabled)
    Active: active (running) since Mon 2016-04-25 14:57:20 EDT; 1min 30s ago
  Main PID: 4093 (mongod)

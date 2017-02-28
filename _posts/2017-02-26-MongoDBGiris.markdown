@@ -6,7 +6,7 @@ author: "Büşra Önder"
 image: ''
 date:   2017-02-26 13:59:12
 ---
-<img src="img/mongodb.png">
+<img src="/img/mongodb.png">
 
 ### MongoDB Nedir?
 
