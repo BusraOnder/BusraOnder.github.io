@@ -16,20 +16,20 @@ MongoDB'yi kaldırmak mı istiyorsunuz? O zaman hadi kaldıralım.
 
 MongoDB kaldırma için ilk önce MongoDB'yi durdurmamız gerekmektedir.
 
---->	
+<b>
 	$ sudo service mongod stop
-
+</b>
 MongoDB'yi kaldırdığımıza göre şimdi paketleri silebiliriz.
 
---->
+<b>
 	$ sudo apt-get purge mongodb-org*
-
+</b>
 Şimdi sırada MongoDB veritabanlarını ve dosyalarını kaldırmak var.
 
---->
+<b>
 	$ sudo rm -r /var/log/mongodb
 	$ sudo rm -r /var/lib/mongodb
-
+</b>
 İşte bu kadar MongoDB'yi bilgisayarımızdan kaldırmış bulunuyoruz.Eğer tekrar indirmek ve öğrenmek  isterseniz diğer yazılarıma bakmayı unutmayınız.
 
 
