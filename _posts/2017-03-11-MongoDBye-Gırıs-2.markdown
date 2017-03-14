@@ -8,19 +8,19 @@ date:   2017-02-26 13:59:12
 ---
 <img src="/img/mongodb.png">
 
-### MongoDB Nedir? (Çeviri)
+# MongoDB Nedir? (Çeviri)
 
 	MongoDB, çapraz platformda, belge tabanlı bir veritabanı olup,yüksek kapasiteli,yüksek performanslı ve kolay ölçeklenebilirdir.MongoDB kavram üzerinde çalışır.
 
-# VERİTABANI
+## VERİTABANI
 	
 	Veritabanı veri toplamak için fiziksel konteynerdır.Her bir veritabanı  dosya sisteminden kendi dosyasını alır.Tek bir MongoDB sunucusu genellikle birden fazla veritabanına sahiptir.
 
-#KOLEKSİYON
+## KOLEKSİYON
 
 	Koleksiyon,bir grup MongoDB belgesidir.Bir RDBMS(İlişkisel Veritabanı Yönetim Sistemleri) tablosuna eşdeğerdir.Bir koleksiyon,tek bir veritabanı içerisinde bulunur.Koleksiyonlar bir şemayı zorunlu kılmazlar.Belgeler bir koleksiyonun içinde farklı alanlara sahip olabilirler.Genellikle,bir koleksiyondaki tüm belgeler benzer veya ilgili amaçlıdır.
 
-#DOKÜMAN
+## DOKÜMAN
 
 	Bir doküman,bir anahtar-değer çifti grubudur.Dokümanlar dinamik şemaya sahiptirler.Dinamik şemanın anlamı aynı koleksiyondaki belgelerde  aynı kümeye ihtiyaç duyulmadığı anlamına gelir.Alanları veya yapıları ve bir koleksiyonun belgelerindeki ortak alanlar farklı veri türleri içerebilir.
 
@@ -28,7 +28,7 @@ date:   2017-02-26 13:59:12
 
 ![RDBMS / MongoDB](/img/rdbms-mongodb.png)
 
-#MongoDB’nin  RDBMS’ye göre avantajları
+## MongoDB’nin  RDBMS’ye göre avantajları
 
 -> MongoDB collectionlarında birbirinden farklı documentler tutar.Belgenin alanları diğer belgelerden içerik ve boyut olarak farklı olabilir.
 -> Tek bir objenin yapısı açıktır.
@@ -39,7 +39,7 @@ date:   2017-02-26 13:59:12
 -> Uygulama nesnelerinin ihtiyaç duyulmayan veritabanı nesnelerine dönüştürür.
 -> Veriye daha hızlı erişmek için dahili hafızayı çalışma kümesini depolamak için kullanır.
 
-#MongoDB niçin kullanılır?
+## MongoDB niçin kullanılır?
 
 -> Veriler JSON tarzı belge biçiminde depolanır.
 -> Bir dizin üzerinde herhangi bir özellik vardır.?
@@ -49,34 +49,40 @@ date:   2017-02-26 13:59:12
 -> Yerinde hızlı güncellemeler
 -> MongoDB tarafından profesyonel destek sağlanır.
 
-# MongoDB nerelerde kullanılır?
+## MongoDB nerelerde kullanılır?
 -> Big-Data (Büyük-veri)
 -> Content Managment and Delivery (İçerik yönetimi ve teslim)
 -> Mobil ve sosyal altyapılar
 -> User daat management (Kullanıcı veri yönetimi)
 -> Data hub (veri merkezi)
 
-#MongoDB Başlatma
+### MongoDB Başlatma
+
 <b> $ sudo service mongodb start </b>
 
-#MongoDB Durdurma
+### MongoDB Durdurma
+
 <b>	$ sudo service mongodb stop </b>
 
-#MongoDB Yeniden Başlatma
+###MongoDB Yeniden Başlatma
+
 <b>	$ sudo service mongodb restart </b>
 
-#MongoDB Çalıştırma
+###MongoDB Çalıştırma
+
 <b>	$ mongo </b>
 
 
-#MongoDB Help
+### MongoDB Help
 	MongoDB’ işimize yarayacak olan sorguları bize sıralar.
+
 <b>	>db.help() </b>
 
 ![db.help() ](/img/dbhelp.png)
 
-#MongoDB İstatistiği
+## MongoDB İstatistiği
 	Veritabanımızın ismini,document sayısını,collection sayısını ve veritabanının diğer özelliklerini bize gösterir.
+
 <b>	>db.stats() </b>
 
 ![db.status()](img/dbstats.png)
