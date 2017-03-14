@@ -22,7 +22,7 @@ Koleksiyon,bir grup MongoDB belgesidir.Bir RDBMS(İlişkisel Veritabanı Yöneti
 
 ### DOKÜMAN
 
-	Bir doküman,bir anahtar-değer çifti grubudur.Dokümanlar dinamik şemaya sahiptirler.Dinamik şemanın anlamı aynı koleksiyondaki belgelerde  aynı kümeye ihtiyaç duyulmadığı anlamına gelir.Alanları veya yapıları ve bir koleksiyonun belgelerindeki ortak alanlar farklı veri türleri içerebilir.
+Bir doküman,bir anahtar-değer çifti grubudur.Dokümanlar dinamik şemaya sahiptirler.Dinamik şemanın anlamı aynı koleksiyondaki belgelerde  aynı kümeye ihtiyaç duyulmadığı anlamına gelir.Alanları veya yapıları ve bir koleksiyonun belgelerindeki ortak alanlar farklı veri türleri içerebilir.
 
 	Aşağıdaki tabloda RDBMS termonolojisi ile MongoDB arasındaki ilişki gösterilmekdir.
 
@@ -74,14 +74,16 @@ Koleksiyon,bir grup MongoDB belgesidir.Bir RDBMS(İlişkisel Veritabanı Yöneti
 
 
 ### MongoDB Help
-	MongoDB’ işimize yarayacak olan sorguları bize sıralar.
+
+MongoDB’ işimize yarayacak olan sorguları bize sıralar.
 
 <b>	>db.help() </b>
 
 ![db.help() ](/img/dbhelp.png)
 
 ### MongoDB İstatistiği
-	Veritabanımızın ismini,document sayısını,collection sayısını ve veritabanının diğer özelliklerini bize gösterir.
+	
+Veritabanımızın ismini,document sayısını,collection sayısını ve veritabanının diğer özelliklerini bize gösterir.
 
 <b>	>db.stats() </b>
 
