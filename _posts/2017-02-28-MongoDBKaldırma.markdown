@@ -25,6 +25,8 @@ MongoDB'yi kaldırdığımıza göre şimdi paketleri silebiliriz.
 Şimdi sırada MongoDB veritabanlarını ve log dosyalarını kaldırmak var.
 
 <b>$ sudo rm -r /var/log/mongodb</b>
+
+
 <b> $ sudo rm -r /var/lib/mongodb</b>
 
 İşte bu kadar MongoDB'yi bilgisayarımızdan kaldırmış bulunuyoruz.Eğer tekrar indirmek ve öğrenmek  isterseniz diğer yazılarıma bakmayı unutmayınız.
